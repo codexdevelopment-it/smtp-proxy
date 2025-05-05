@@ -7,5 +7,4 @@ python proxy.py \
   --smtp-port "$SMTP_PORT" \
   --smtp-user "$SMTP_USER" \
   --smtp-pass "$SMTP_PASS" \
-  $( [ "$NO_TLS_OUTBOUND" = "true" ] && echo "--no-tls-outbound" )
-
+  --ssl-outbound
