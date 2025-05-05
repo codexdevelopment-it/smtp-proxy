@@ -1,0 +1,6 @@
+#RENAME THIS FILE TO .env
+LISTEN_PORT=1234
+SMTP_HOST=mail.privateemail.com
+SMTP_PORT=465
+SMTP_USER=maiz@dmax.it
+SMTP_PASS=osgu
